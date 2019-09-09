@@ -1,0 +1,58 @@
+<html>
+  <style>
+    h2, h1 {
+      font-family: Helvetica;
+      font-weight: 400;
+      color: gray;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .gallery {
+      display: flex;
+    }
+    .gallery > .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      border: 1px dashed gray;
+      padding: 10px;
+      margin: 10px;
+    }
+    .gallery > .item img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover; 
+    }
+    .gallery > .item:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <h1>
+      #MakeoverMonday visualizations
+    </h1>
+    <div class="gallery">
+      <a class="item" href="http://giulianos.github.io/infovis/makeovermonday/week32/chart.png">
+        <img src="http://giulianos.github.io/infovis/makeovermonday/week32/chart.png" />
+        <h2>Week 32</h2>
+       </a>
+      <a class="item" href="http://giulianos.github.io/infovis/makeovermonday/week33/chart.png">
+        <img src="http://giulianos.github.io/infovis/makeovermonday/week33/chart.png" />
+        <h2>Week 33</h2>
+      </a>
+      <a class="item" href="http://giulianos.github.io/infovis/makeovermonday/week35">
+        <img src="http://giulianos.github.io/infovis/makeovermonday/week35/chart.png" />
+        <h2>Week 35</h2>
+      </a>
+      <a class="item" href="http://giulianos.github.io/infovis/makeovermonday/week36">
+        <img src="http://giulianos.github.io/infovis/makeovermonday/week36/chart.png" />
+        <h2>Week 36</h2>
+      </a>
+    </div>
+  </body>
+</html>
